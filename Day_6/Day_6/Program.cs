@@ -34,9 +34,9 @@ namespace Day_6
 
 
 
-            for (int i = 0; i < 6; i = i + 2) // i++ ir i=i+1
+            for (int i = 0; i < 6; i++) // i++ ir i=i+1
             {
-                i--;
+                
                 Console.WriteLine(i);
             }
 
