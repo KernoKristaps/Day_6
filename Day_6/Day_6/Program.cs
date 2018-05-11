@@ -19,7 +19,7 @@ namespace Day_6
 
             int skaits = izvade.Length; // simbolu daudzumu aprēķina un izvada
             Console.WriteLine(skaits);
-            Console.ReadLine();*/
+            Console.ReadLine();
 
             Console.WriteLine("Ievadi pirmo skaitli");
             string ievade1 = Console.ReadLine();
@@ -30,7 +30,22 @@ namespace Day_6
             double skaitlis2 = Convert.ToDouble(ievade1);
 
             double izvade = SkaitluSalidzinasana(skaitlis1, skaitlis2);
-            Console.WriteLine("Lielakais skaitlis ir" + izvade);
+            Console.WriteLine("Lielakais skaitlis ir " + izvade);*/
+
+
+
+            for (int i = 0; i < 6; i = i + 2) // i++ ir i=i+1
+            {
+                i--;
+                Console.WriteLine(i);
+            }
+
+            /*int skaititajs = 0;
+            while (skaititajs != 5)
+            {
+                Console.WriteLine(skaititajs);
+                skaititajs++;
+            }*/
 
 
             Console.ReadLine();
